@@ -1,0 +1,277 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase",
+    "children" : [ {
+      "name" : "Given user navigates to demo web tour application",
+      "uid" : "14e9ee75bdae7ece",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547947511,
+        "stop" : 1588547949222,
+        "duration" : 1711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When user loghin using default user and password",
+      "uid" : "f397ea995e45b56d",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547949222,
+        "stop" : 1588547957537,
+        "duration" : 8315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user validates flight search page",
+      "uid" : "b795d15a4d59528c",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547957537,
+        "stop" : 1588547957990,
+        "duration" : 453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user completes flight information",
+      "uid" : "8610cb0dd5a07f49",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547957991,
+        "stop" : 1588547959779,
+        "duration" : 1788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user clicks on continue",
+      "uid" : "f0b0efd2ddf358d7",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547959779,
+        "stop" : 1588547960716,
+        "duration" : 937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user completes the passengers information",
+      "uid" : "7e28739d7d992803",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547960716,
+        "stop" : 1588547974470,
+        "duration" : 13754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user clicks on secure purchase",
+      "uid" : "80715c08781e721a",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547974470,
+        "stop" : 1588547979941,
+        "duration" : 5471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "1f00d44a8ca3c24a",
+      "parentUid" : "5a6d0103e57e1a8245d8443c8293d349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547979942,
+        "stop" : 1588547979942,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "5a6d0103e57e1a8245d8443c8293d349"
+  }, {
+    "name" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight",
+    "children" : [ {
+      "name" : "Given user navigates to demo web tour application",
+      "uid" : "b54b0eff2dcbd086",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547983412,
+        "stop" : 1588547985928,
+        "duration" : 2516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When user loghin using default user and password",
+      "uid" : "3da65d5e4bbf2938",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547985928,
+        "stop" : 1588547993410,
+        "duration" : 7482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user validates flight search page",
+      "uid" : "11041d59d72cfa57",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547993410,
+        "stop" : 1588547993855,
+        "duration" : 445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user completes flight information",
+      "uid" : "6c1e5b8c75772570",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547993855,
+        "stop" : 1588547995554,
+        "duration" : 1699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user validates find flight page",
+      "uid" : "fd21cbe59c93497e",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547995554,
+        "stop" : 1588547996015,
+        "duration" : 461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user clicks logout",
+      "uid" : "82d3f74b3d69531e",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547996015,
+        "stop" : 1588547997684,
+        "duration" : 1669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "39d5e585c0609a5c",
+      "parentUid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547997684,
+        "stop" : 1588547997685,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "ee333d160e5a0b58ef4ff486b3e3e4d2"
+  }, {
+    "name" : "This is login feature: User should be able to login to demo webtour site",
+    "children" : [ {
+      "name" : "Given user navigates to demo web tour application",
+      "uid" : "9b9a3057511bfa71",
+      "parentUid" : "541c07711a14358dfd9b275886d341ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588548000737,
+        "stop" : 1588548002917,
+        "duration" : 2180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When user loghin using default user and password",
+      "uid" : "113b90779ce2dfa5",
+      "parentUid" : "541c07711a14358dfd9b275886d341ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588548002923,
+        "stop" : 1588548009377,
+        "duration" : 6454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user validates flight search page",
+      "uid" : "e9bbd2a4f6172b31",
+      "parentUid" : "541c07711a14358dfd9b275886d341ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588548009377,
+        "stop" : 1588548009822,
+        "duration" : 445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then user clicks logout",
+      "uid" : "1f088b6128ebb754",
+      "parentUid" : "541c07711a14358dfd9b275886d341ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588548009823,
+        "stop" : 1588548011405,
+        "duration" : 1582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "d4f1380a9d8d2e19",
+      "parentUid" : "541c07711a14358dfd9b275886d341ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588548011406,
+        "stop" : 1588548011408,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "541c07711a14358dfd9b275886d341ad"
+  } ]
+}

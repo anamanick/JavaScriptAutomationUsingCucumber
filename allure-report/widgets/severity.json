@@ -1,0 +1,201 @@
+[ {
+  "uid" : "39d5e585c0609a5c",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1588547997684,
+    "stop" : 1588547997685,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d3f74b3d69531e",
+  "name" : "Then user clicks logout",
+  "time" : {
+    "start" : 1588547996015,
+    "stop" : 1588547997684,
+    "duration" : 1669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80715c08781e721a",
+  "name" : "Then user clicks on secure purchase",
+  "time" : {
+    "start" : 1588547974470,
+    "stop" : 1588547979941,
+    "duration" : 5471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0b0efd2ddf358d7",
+  "name" : "Then user clicks on continue",
+  "time" : {
+    "start" : 1588547959779,
+    "stop" : 1588547960716,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e28739d7d992803",
+  "name" : "Then user completes the passengers information",
+  "time" : {
+    "start" : 1588547960716,
+    "stop" : 1588547974470,
+    "duration" : 13754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9bbd2a4f6172b31",
+  "name" : "Then user validates flight search page",
+  "time" : {
+    "start" : 1588548009377,
+    "stop" : 1588548009822,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8610cb0dd5a07f49",
+  "name" : "Then user completes flight information",
+  "time" : {
+    "start" : 1588547957991,
+    "stop" : 1588547959779,
+    "duration" : 1788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b9a3057511bfa71",
+  "name" : "Given user navigates to demo web tour application",
+  "time" : {
+    "start" : 1588548000737,
+    "stop" : 1588548002917,
+    "duration" : 2180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f00d44a8ca3c24a",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1588547979942,
+    "stop" : 1588547979942,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f088b6128ebb754",
+  "name" : "Then user clicks logout",
+  "time" : {
+    "start" : 1588548009823,
+    "stop" : 1588548011405,
+    "duration" : 1582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "113b90779ce2dfa5",
+  "name" : "When user loghin using default user and password",
+  "time" : {
+    "start" : 1588548002923,
+    "stop" : 1588548009377,
+    "duration" : 6454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14e9ee75bdae7ece",
+  "name" : "Given user navigates to demo web tour application",
+  "time" : {
+    "start" : 1588547947511,
+    "stop" : 1588547949222,
+    "duration" : 1711
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11041d59d72cfa57",
+  "name" : "Then user validates flight search page",
+  "time" : {
+    "start" : 1588547993410,
+    "stop" : 1588547993855,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3da65d5e4bbf2938",
+  "name" : "When user loghin using default user and password",
+  "time" : {
+    "start" : 1588547985928,
+    "stop" : 1588547993410,
+    "duration" : 7482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4f1380a9d8d2e19",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1588548011406,
+    "stop" : 1588548011408,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f397ea995e45b56d",
+  "name" : "When user loghin using default user and password",
+  "time" : {
+    "start" : 1588547949222,
+    "stop" : 1588547957537,
+    "duration" : 8315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b54b0eff2dcbd086",
+  "name" : "Given user navigates to demo web tour application",
+  "time" : {
+    "start" : 1588547983412,
+    "stop" : 1588547985928,
+    "duration" : 2516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c1e5b8c75772570",
+  "name" : "Then user completes flight information",
+  "time" : {
+    "start" : 1588547993855,
+    "stop" : 1588547995554,
+    "duration" : 1699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd21cbe59c93497e",
+  "name" : "Then user validates find flight page",
+  "time" : {
+    "start" : 1588547995554,
+    "stop" : 1588547996015,
+    "duration" : 461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b795d15a4d59528c",
+  "name" : "Then user validates flight search page",
+  "time" : {
+    "start" : 1588547957537,
+    "stop" : 1588547957990,
+    "duration" : 453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "5a6d0103e57e1a8245d8443c8293d349",
+    "name" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "ee333d160e5a0b58ef4ff486b3e3e4d2",
+    "name" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "541c07711a14358dfd9b275886d341ad",
+    "name" : "This is login feature: User should be able to login to demo webtour site",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

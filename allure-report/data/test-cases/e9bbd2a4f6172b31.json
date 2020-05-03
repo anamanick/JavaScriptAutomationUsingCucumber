@@ -1,0 +1,166 @@
+{
+  "uid" : "e9bbd2a4f6172b31",
+  "name" : "Then user validates flight search page",
+  "fullName" : "This is login feature: User should be able to login to demo webtour site.Then user validates flight search page",
+  "historyId" : "6bd6735a2e2f23be466c9d2bc53c1132",
+  "time" : {
+    "start" : 1588548009377,
+    "stop" : 1588548009822,
+    "duration" : 445
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1588548009378,
+        "stop" : 1588548009394,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6b4c50cd0d37a1d",
+        "name" : "Response",
+        "source" : "f6b4c50cd0d37a1d.json",
+        "type" : "application/json",
+        "size" : 92
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588548009394,
+        "stop" : 1588548009820,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b652227183c648de",
+        "name" : "Screenshot",
+        "source" : "b652227183c648de.png",
+        "type" : "image/png",
+        "size" : 363826
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testClass",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user validates flight search page"
+  }, {
+    "name" : "package",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9fcc806e8c52b1a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588546989962,
+        "stop" : 1588546990425,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "b0314483c11a0d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588546303210,
+        "stop" : 1588546303647,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "b772a026022ca9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588545837729,
+        "stop" : 1588545838158,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "85ffc6db3e4d176",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588545513194,
+        "stop" : 1588545513611,
+        "duration" : 417
+      }
+    }, {
+      "uid" : "71006a53e7b99a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588543686042,
+        "stop" : 1588543686541,
+        "duration" : 499
+      }
+    }, {
+      "uid" : "454bd9e12c30fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588478799539,
+        "stop" : 1588478799936,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "2e5b724debc0b650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588478095717,
+        "stop" : 1588478095771,
+        "duration" : 54
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9bbd2a4f6172b31.json",
+  "parameterValues" : [ "chrome" ]
+}

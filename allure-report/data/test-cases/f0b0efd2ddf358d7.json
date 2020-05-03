@@ -1,0 +1,227 @@
+{
+  "uid" : "f0b0efd2ddf358d7",
+  "name" : "Then user clicks on continue",
+  "fullName" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase.Then user clicks on continue",
+  "historyId" : "195ef3d5f71bbd6dc40f373bc8fc31f4",
+  "time" : {
+    "start" : 1588547959779,
+    "stop" : 1588547960716,
+    "duration" : 937
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588547959779,
+        "stop" : 1588547959799,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f1e66fbd70a0cc4",
+        "name" : "Request",
+        "source" : "4f1e66fbd70a0cc4.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "daafa5ea22bb6f4d",
+        "name" : "Response",
+        "source" : "daafa5ea22bb6f4d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1588547959801,
+        "stop" : 1588547959819,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1042c12272aebdd0",
+        "name" : "Request",
+        "source" : "1042c12272aebdd0.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "60a496a56a29d8fb",
+        "name" : "Response",
+        "source" : "60a496a56a29d8fb.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588547959820,
+        "stop" : 1588547959837,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d58a76abfb1f75ea",
+        "name" : "Request",
+        "source" : "d58a76abfb1f75ea.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "e491f818735bf9f1",
+        "name" : "Response",
+        "source" : "e491f818735bf9f1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ce752ad8-ac94-48cb-aed4-2821fb0f77ba/click",
+      "time" : {
+        "start" : 1588547959838,
+        "stop" : 1588547960274,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588547960274,
+        "stop" : 1588547960714,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fde2ef5961989fe",
+        "name" : "Screenshot",
+        "source" : "2fde2ef5961989fe.png",
+        "type" : "image/png",
+        "size" : 377958
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user clicks on continue"
+  }, {
+    "name" : "package",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "99fc07358f993d20",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1588546950148,
+        "stop" : 1588546950148,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "83f6059ae57239a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588546246846,
+        "stop" : 1588546248063,
+        "duration" : 1217
+      }
+    }, {
+      "uid" : "41a5d3bb1d267938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588545796760,
+        "stop" : 1588545797671,
+        "duration" : 911
+      }
+    }, {
+      "uid" : "be7336e921cbd4a7",
+      "status" : "broken",
+      "statusDetails" : "this.continueBtn.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1588545481867,
+        "stop" : 1588545482268,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "f5a42bfac0c30ea6",
+      "status" : "broken",
+      "statusDetails" : "this.continueBtn.click is not a function",
+      "time" : {
+        "start" : 1588543653609,
+        "stop" : 1588543654007,
+        "duration" : 398
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0b0efd2ddf358d7.json",
+  "parameterValues" : [ "chrome" ]
+}
