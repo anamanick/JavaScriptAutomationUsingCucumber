@@ -1,0 +1,108 @@
+{
+  "uid" : "58d33b6b85cc0893",
+  "name" : "Then user validates flight search page",
+  "fullName" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase.Then user validates flight search page",
+  "historyId" : "cf061f083e4393767bcc6aeb5bf773bd",
+  "time" : {
+    "start" : 1588543650890,
+    "stop" : 1588543651313,
+    "duration" : 423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1588543650890,
+        "stop" : 1588543650917,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13b8bb95ef46a907",
+        "name" : "Response",
+        "source" : "13b8bb95ef46a907.json",
+        "type" : "application/json",
+        "size" : 92
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588543650918,
+        "stop" : 1588543651312,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1b6f60e9cbcb006",
+        "name" : "Screenshot",
+        "source" : "e1b6f60e9cbcb006.png",
+        "type" : "image/png",
+        "size" : 355790
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user validates flight search page"
+  }, {
+    "name" : "package",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58d33b6b85cc0893.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "ffe91f98736bc2b6",
+  "name" : "Then user clicks on secure purchase",
+  "fullName" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase.Then user clicks on secure purchase",
+  "historyId" : "7bbd3edde4383206333f6a4c67da704f",
+  "time" : {
+    "start" : 1588545809932,
+    "stop" : 1588545809932,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user clicks on secure purchase"
+  }, {
+    "name" : "package",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffe91f98736bc2b6.json",
+  "parameterValues" : [ "chrome" ]
+}

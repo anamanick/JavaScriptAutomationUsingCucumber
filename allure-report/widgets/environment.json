@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "values" : [ "WebTour Production" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "81.0" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Google Chrome" ],
+  "name" : "Browser"
+} ]

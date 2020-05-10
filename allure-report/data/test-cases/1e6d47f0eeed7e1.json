@@ -1,0 +1,91 @@
+{
+  "uid" : "1e6d47f0eeed7e1",
+  "name" : "Then user clicks on continue",
+  "fullName" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase.Then user clicks on continue",
+  "historyId" : "195ef3d5f71bbd6dc40f373bc8fc31f4",
+  "time" : {
+    "start" : 1588545481867,
+    "stop" : 1588545482268,
+    "duration" : 401
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.continueBtn.waitForDisplayed is not a function",
+  "statusTrace" : "TypeError: this.continueBtn.waitForDisplayed is not a function\n                    at SelectFlight.continueBtn (/Users/mdanam/Documents/Udemy/JS/JavaScriptAutomation/JsCucumberAutomation/test/pageobjects/SelectFlight.page.js:6:26)\n                    at World.<anonymous> (/Users/mdanam/Documents/Udemy/JS/JavaScriptAutomation/JsCucumberAutomation/test/stepDef/BookAFlight.setpdef.js:8:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.continueBtn.waitForDisplayed is not a function",
+    "statusTrace" : "TypeError: this.continueBtn.waitForDisplayed is not a function\n                    at SelectFlight.continueBtn (/Users/mdanam/Documents/Udemy/JS/JavaScriptAutomation/JsCucumberAutomation/test/pageobjects/SelectFlight.page.js:6:26)\n                    at World.<anonymous> (/Users/mdanam/Documents/Udemy/JS/JavaScriptAutomation/JsCucumberAutomation/test/stepDef/BookAFlight.setpdef.js:8:18)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588545481869,
+        "stop" : 1588545482265,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f257a19c9bf9fd8c",
+        "name" : "Screenshot",
+        "source" : "f257a19c9bf9fd8c.png",
+        "type" : "image/png",
+        "size" : 426107
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user clicks on continue"
+  }, {
+    "name" : "package",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e6d47f0eeed7e1.json",
+  "parameterValues" : [ "chrome" ]
+}

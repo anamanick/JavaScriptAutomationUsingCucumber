@@ -1,0 +1,191 @@
+{
+  "uid" : "1051d809b50faff1",
+  "name" : "Then user clicks on secure purchase",
+  "fullName" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase.Then user clicks on secure purchase",
+  "historyId" : "7bbd3edde4383206333f6a4c67da704f",
+  "time" : {
+    "start" : 1589085761684,
+    "stop" : 1589085767139,
+    "duration" : 5455
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1589085761684,
+        "stop" : 1589085761697,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "668a1028f7f3dc38",
+        "name" : "Request",
+        "source" : "668a1028f7f3dc38.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "5c6d50dc2e781094",
+        "name" : "Response",
+        "source" : "5c6d50dc2e781094.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1589085761700,
+        "stop" : 1589085761714,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31fc56051da00cf0",
+        "name" : "Request",
+        "source" : "31fc56051da00cf0.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "6a1afd2548db8b47",
+        "name" : "Response",
+        "source" : "6a1afd2548db8b47.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1589085766718,
+        "stop" : 1589085767137,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a3cc53af04f771e",
+        "name" : "Screenshot",
+        "source" : "1a3cc53af04f771e.png",
+        "type" : "image/png",
+        "size" : 389306
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testClass",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user clicks on secure purchase"
+  }, {
+    "name" : "package",
+    "value" : "This feature is about booking a flight: User should be able to login to demo webtour site and book a flight and complete a purchase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d32d848ecf34eec0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547974470,
+        "stop" : 1588547979941,
+        "duration" : 5471
+      }
+    }, {
+      "uid" : "e0e4f028fdc27ff6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1588546950149,
+        "stop" : 1588546950149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3240b636c9147b55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588546263414,
+        "stop" : 1588546268876,
+        "duration" : 5462
+      }
+    }, {
+      "uid" : "ffe91f98736bc2b6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1588545809932,
+        "stop" : 1588545809932,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "481f16aed9b49283",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1588545482268,
+        "stop" : 1588545482268,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8663834f93f6bcde",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1588543654008,
+        "stop" : 1588543654008,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1051d809b50faff1.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "5e075ea163517b78",
+  "name" : "Then user validates find flight page",
+  "fullName" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight.Then user validates find flight page",
+  "historyId" : "3bdac194b734e4f3a22529750542d4bd",
+  "time" : {
+    "start" : 1588547995554,
+    "stop" : 1588547996015,
+    "duration" : 461
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1588547995555,
+        "stop" : 1588547995559,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d238bf5e8873c31",
+        "name" : "Response",
+        "source" : "8d238bf5e8873c31.json",
+        "type" : "application/json",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588547995559,
+        "stop" : 1588547996013,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43bd11e362bb7b9a",
+        "name" : "Screenshot",
+        "source" : "43bd11e362bb7b9a.png",
+        "type" : "image/png",
+        "size" : 448306
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testClass",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user validates find flight page"
+  }, {
+    "name" : "package",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e075ea163517b78.json",
+  "parameterValues" : [ "chrome" ]
+}

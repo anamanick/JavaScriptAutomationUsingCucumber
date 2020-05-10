@@ -1,0 +1,129 @@
+{
+  "uid" : "3e6a323937d5d1b6",
+  "name" : "Then user clicks logout",
+  "fullName" : "This is login feature: User should be able to login to demo webtour site.Then user clicks logout",
+  "historyId" : "657187482f948f3666cfbfefd4906fa6",
+  "time" : {
+    "start" : 1588545513615,
+    "stop" : 1588545515670,
+    "duration" : 2055
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588545513616,
+        "stop" : 1588545513635,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d53f1c4a72723ae",
+        "name" : "Request",
+        "source" : "6d53f1c4a72723ae.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "d69ba15db9d1838f",
+        "name" : "Response",
+        "source" : "d69ba15db9d1838f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2ff0cc30-d91d-4dd0-a16b-52e8122ca355/click",
+      "time" : {
+        "start" : 1588545513636,
+        "stop" : 1588545515238,
+        "duration" : 1602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588545515238,
+        "stop" : 1588545515668,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf916d924c347235",
+        "name" : "Screenshot",
+        "source" : "cf916d924c347235.png",
+        "type" : "image/png",
+        "size" : 277792
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testClass",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user clicks logout"
+  }, {
+    "name" : "package",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e6a323937d5d1b6.json",
+  "parameterValues" : [ "chrome" ]
+}

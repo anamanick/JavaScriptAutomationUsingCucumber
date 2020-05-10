@@ -1,0 +1,150 @@
+{
+  "uid" : "d0987a4bbc6737b2",
+  "name" : "Given user navigates to demo web tour application",
+  "fullName" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight.Given user navigates to demo web tour application",
+  "historyId" : "c83a5b23c4ba9a719d205113d5f69aa5",
+  "time" : {
+    "start" : 1588546273963,
+    "stop" : 1588546276124,
+    "duration" : 2161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1588546273966,
+        "stop" : 1588546274893,
+        "duration" : 927
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d19a158b1777602",
+        "name" : "Request",
+        "source" : "9d19a158b1777602.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1588546274893,
+        "stop" : 1588546275056,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6825f9a30e2894dd",
+        "name" : "Response",
+        "source" : "6825f9a30e2894dd.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/fullscreen",
+      "time" : {
+        "start" : 1588546275056,
+        "stop" : 1588546275370,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55c5e7d1fd93b26",
+        "name" : "Response",
+        "source" : "55c5e7d1fd93b26.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588546275371,
+        "stop" : 1588546276121,
+        "duration" : 750
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b9a59d21ce8beef",
+        "name" : "Screenshot",
+        "source" : "8b9a59d21ce8beef.png",
+        "type" : "image/png",
+        "size" : 597376
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testClass",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user navigates to demo web tour application"
+  }, {
+    "name" : "package",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0987a4bbc6737b2.json",
+  "parameterValues" : [ "chrome" ]
+}

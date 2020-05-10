@@ -1,0 +1,108 @@
+{
+  "uid" : "c9aac5afd50c4d35",
+  "name" : "Given user navigates to demo web tour application",
+  "fullName" : "This is login feature: User should be able to login to demo webtour site.Given user navigates to demo web tour application",
+  "historyId" : "37e47d46b792204dc337cc17cdd9dadd",
+  "time" : {
+    "start" : 1588545504283,
+    "stop" : 1588545506099,
+    "duration" : 1816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1588545504287,
+        "stop" : 1588545505570,
+        "duration" : 1283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2076371f72bc11f3",
+        "name" : "Request",
+        "source" : "2076371f72bc11f3.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1588545505571,
+        "stop" : 1588545506095,
+        "duration" : 524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f4025d79743e7b5",
+        "name" : "Screenshot",
+        "source" : "7f4025d79743e7b5.png",
+        "type" : "image/png",
+        "size" : 541862
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testClass",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user navigates to demo web tour application"
+  }, {
+    "name" : "package",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9aac5afd50c4d35.json",
+  "parameterValues" : [ "chrome" ]
+}

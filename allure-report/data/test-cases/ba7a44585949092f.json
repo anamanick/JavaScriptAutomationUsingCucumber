@@ -1,0 +1,234 @@
+{
+  "uid" : "ba7a44585949092f",
+  "name" : "When user loghin using default user and password",
+  "fullName" : "This is login feature: User should be able to login to demo webtour site.When user loghin using default user and password",
+  "historyId" : "6d8f0c72dd33901df29e5a721d4fb4c9",
+  "time" : {
+    "start" : 1588478088726,
+    "stop" : 1588478095715,
+    "duration" : 6989
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588478088729,
+        "stop" : 1588478088792,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1cae4064e1ed69c",
+        "name" : "Request",
+        "source" : "d1cae4064e1ed69c.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "e4705fcdd1752a69",
+        "name" : "Response",
+        "source" : "e4705fcdd1752a69.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/066e2463-d48d-496d-8ea3-6c919835cbd8/clear",
+      "time" : {
+        "start" : 1588478088808,
+        "stop" : 1588478088905,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/066e2463-d48d-496d-8ea3-6c919835cbd8/value",
+      "time" : {
+        "start" : 1588478088910,
+        "stop" : 1588478089237,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84910bfacc15728",
+        "name" : "Request",
+        "source" : "84910bfacc15728.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588478089238,
+        "stop" : 1588478089296,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5b98bef6fd6022a",
+        "name" : "Request",
+        "source" : "f5b98bef6fd6022a.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "1606e2ab0c72f1cc",
+        "name" : "Response",
+        "source" : "1606e2ab0c72f1cc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d6148598-a140-446f-b30a-dd18a603df38/clear",
+      "time" : {
+        "start" : 1588478089299,
+        "stop" : 1588478089393,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/d6148598-a140-446f-b30a-dd18a603df38/value",
+      "time" : {
+        "start" : 1588478089394,
+        "stop" : 1588478089582,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2523528b7157d712",
+        "name" : "Request",
+        "source" : "2523528b7157d712.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588478089582,
+        "stop" : 1588478089620,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d016dd2aa079bae",
+        "name" : "Request",
+        "source" : "9d016dd2aa079bae.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "a5aa7ff8d8ac037a",
+        "name" : "Response",
+        "source" : "a5aa7ff8d8ac037a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c5cf640a-a130-430b-9b1f-bfa87a34fe94/click",
+      "time" : {
+        "start" : 1588478089623,
+        "stop" : 1588478095713,
+        "duration" : 6090
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testClass",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user loghin using default user and password"
+  }, {
+    "name" : "package",
+    "value" : "This is login feature: User should be able to login to demo webtour site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba7a44585949092f.json",
+  "parameterValues" : [ "chrome" ]
+}

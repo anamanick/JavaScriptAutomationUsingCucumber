@@ -1,0 +1,234 @@
+{
+  "uid" : "2cf32eaaf1883674",
+  "name" : "When user loghin using default user and password",
+  "fullName" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight.When user loghin using default user and password",
+  "historyId" : "99cb74aa31b31f7f5ff6c14de12cd280",
+  "time" : {
+    "start" : 1588478071790,
+    "stop" : 1588478079641,
+    "duration" : 7851
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588478071795,
+        "stop" : 1588478071839,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd696e7bbf96d530",
+        "name" : "Request",
+        "source" : "bd696e7bbf96d530.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "a6111d6174a8bc4d",
+        "name" : "Response",
+        "source" : "a6111d6174a8bc4d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/8da9aef9-56b2-489e-b671-a124b20a6024/clear",
+      "time" : {
+        "start" : 1588478071848,
+        "stop" : 1588478071942,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8da9aef9-56b2-489e-b671-a124b20a6024/value",
+      "time" : {
+        "start" : 1588478071945,
+        "stop" : 1588478072186,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1dd6d26c42fccc2",
+        "name" : "Request",
+        "source" : "e1dd6d26c42fccc2.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588478072186,
+        "stop" : 1588478072231,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b04dd9310f88291",
+        "name" : "Request",
+        "source" : "9b04dd9310f88291.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "b3c36158ca011c74",
+        "name" : "Response",
+        "source" : "b3c36158ca011c74.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/9983c004-d0cd-4ed3-9967-6e4d77c20c44/clear",
+      "time" : {
+        "start" : 1588478072233,
+        "stop" : 1588478072280,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/9983c004-d0cd-4ed3-9967-6e4d77c20c44/value",
+      "time" : {
+        "start" : 1588478072281,
+        "stop" : 1588478072363,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9e01b77b80b2762",
+        "name" : "Request",
+        "source" : "e9e01b77b80b2762.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1588478072364,
+        "stop" : 1588478072386,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c12984fc14c83e98",
+        "name" : "Request",
+        "source" : "c12984fc14c83e98.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "f940b77806e774e9",
+        "name" : "Response",
+        "source" : "f940b77806e774e9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/47b953db-1c4e-456d-8d60-aa67b32e5954/click",
+      "time" : {
+        "start" : 1588478072388,
+        "stop" : 1588478079640,
+        "duration" : 7252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testClass",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testMethod",
+    "value" : "When user loghin using default user and password"
+  }, {
+    "name" : "package",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cf32eaaf1883674.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,174 @@
+{
+  "uid" : "80fdb8f14edd6149",
+  "name" : "Then user validates find flight page",
+  "fullName" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight.Then user validates find flight page",
+  "historyId" : "3bdac194b734e4f3a22529750542d4bd",
+  "time" : {
+    "start" : 1589085791287,
+    "stop" : 1589085791742,
+    "duration" : 455
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1589085791287,
+        "stop" : 1589085791294,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15251d9985f606b7",
+        "name" : "Response",
+        "source" : "15251d9985f606b7.json",
+        "type" : "application/json",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1589085791294,
+        "stop" : 1589085791740,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "feee53d928b3dbbe",
+        "name" : "Screenshot",
+        "source" : "feee53d928b3dbbe.png",
+        "type" : "image/png",
+        "size" : 445400
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testClass",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user validates find flight page"
+  }, {
+    "name" : "package",
+    "value" : "This is find flights Feature: User should be able to login to demo webtour site and book a flight"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5e075ea163517b78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588547995554,
+        "stop" : 1588547996015,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "b0cffede39b0701d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1588546975986,
+        "stop" : 1588546975987,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "27313ca28c8a21d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588546288600,
+        "stop" : 1588546289061,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "43b1b9d372fea454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588545824936,
+        "stop" : 1588545825342,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "b32f85c76792ad83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588545498133,
+        "stop" : 1588545498566,
+        "duration" : 433
+      }
+    }, {
+      "uid" : "799da306ac69f350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588543671882,
+        "stop" : 1588543672293,
+        "duration" : 411
+      }
+    }, {
+      "uid" : "6134068be057ecdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588478781328,
+        "stop" : 1588478781752,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "ce2412ca4375d535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588478081731,
+        "stop" : 1588478081784,
+        "duration" : 53
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80fdb8f14edd6149.json",
+  "parameterValues" : [ "chrome" ]
+}
